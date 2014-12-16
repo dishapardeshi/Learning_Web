@@ -17,6 +17,10 @@ var Person = Backbone.Model.extend({
 
 	work : function() {
 		return this.get('name') + " is working";
+	},
+	
+	helpme : function(){
+		alert('Help Me.');
 	}
 });
 
